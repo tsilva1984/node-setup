@@ -16,6 +16,28 @@
     "removeComments": true,                           
     "esModuleInterop": true,                             
     "forceConsistentCasingInFileNames": true,                
-    "skipLibCheck": true                                 
+    "skipLibCheck": true,
+    "paths":{
+      
+      //pastas mvc
+      "@controllers/*":["./src/app/controllers/*"],
+      "@models/*":["./src/app/models/*"],
+      "@view/*":["./src/app/view/*"],
+      "@middlewares/*":["./src/app/middlewares/*"],
+      "@config/*":["./src/config/*"]
+
+      //pastas typeorm
+      /*
+      "@controllers/*":["./src/app/controllers/*"],
+      "@middlewares/*":["./src/app/middlewares/*"],
+      "@entities/*":["./src/app/entities/*"],
+      "@repositories/*":["./src/app/repositories/*"],
+      "@services/*":["./src/app/services/*"],
+      "@config/*":["./src/config/*"]
+      "@database/*":["./src/database/*"]
+      "@migration/*":["./src/database/migrations/*"]
+      
+      */
+    }                                 
   }
 }
